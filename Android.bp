@@ -6,6 +6,8 @@ cc_library_shared {
         "src/lockpool.cpp",
     ],
     header_libs: [
+        "libboost_config",
+        "libboost_assert",
     ],
     target: {
         android: {
